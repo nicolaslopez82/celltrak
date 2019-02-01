@@ -1,0 +1,9 @@
+{
+ "testCaseName": "TC3_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage10PerPage50_ExpectedTotalIDsEqualTo100",
+ "q":"user:google",
+ "type": "Repositories",
+ "sort": "created",
+ "order": "desc",
+ "page": "10",
+ "per_page": "50"
+}

@@ -1,0 +1,9 @@
+{
+ "testCaseName": "TC2_RepoSearch_UserBaeldungTypeRepoSortUpdatedPage1_ExpectedTotalCountGreaterThanOrEqualTo10",
+ "q":"user:baeldung",
+ "type": "Repositories",
+ "sort": "updated",
+ "order": "desc",
+ "page": "1",
+ "per_page": "10"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite name="Suite" parallel="none" >
+
+    <listeners>
+        <listener class-name="celltrak.challenge.listeners.TestListener"/>
+    </listeners>
+
+    <test name="PositiveTests" enabled="false">
+        <classes>
+            <class name="celltrak.challenge.test.GitRepositoriesSearch_PositiveScenariosTests">
+                <methods>
+                    <include name="TC1_RepoSearch_UserNetflixTypeRepoSortCreatedOrderDescPage1PerPage25_Expected200Code"></include>
+                    <include name="TC2_RepoSearch_UserBaeldungTypeRepoSortUpdatedPage1_ExpectedTotalCountGreaterThanOrEqualTo10"></include>
+                    <include name="TC3_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage10PerPage50_ExpectedTotalIDsEqualTo100"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="NegativeTests" enabled="false">
+        <classes>
+            <class name="celltrak.challenge.test.GitRepositoriesSearch_NegativeScenariosTests">
+                <methods>
+                    <include name="TC4_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage1000PerPage50_ExpectedMessageError"></include>
+                    <include name="TC5_RepoSearch_UserLanguageSortStarsOrderDescPage1PerPage5_Expected422Code"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

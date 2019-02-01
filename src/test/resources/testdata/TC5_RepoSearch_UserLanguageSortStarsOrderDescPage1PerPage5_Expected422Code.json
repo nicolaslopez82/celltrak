@@ -1,0 +1,9 @@
+{
+ "testCaseName": "TC5_RepoSearch_UserLanguageSortStarsOrderDescPage1PerPage5_Expected422Code",
+ "q":"user:mkyong+language:java",
+ "type": "",
+ "sort": "stars",
+ "order": "desc",
+ "page": "1",
+ "per_page": "5"
+}

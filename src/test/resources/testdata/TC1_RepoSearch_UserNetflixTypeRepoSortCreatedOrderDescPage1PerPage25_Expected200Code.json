@@ -1,0 +1,9 @@
+{
+ "testCaseName": "TC1_RepoSearch_UserNetflixTypeRepoSortCreatedOrderDescPage1PerPage25_Expected200Code",
+ "q":"user:Netflix",
+ "type": "Repositories",
+ "sort": "created",
+ "order": "desc",
+ "page": "1",
+ "per_page": "25"
+}
