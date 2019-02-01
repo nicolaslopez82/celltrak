@@ -33,17 +33,17 @@
 2) Import the project from poxm.xml file from your IDE.
 3) Accept import dependencies or download dependencies from IDE, or a better option is through CMD running: mvn clean install from pom.xml folder location.
 
-4) In case the test-output folder is not present in the project, it can be created in the following procedure:
+4) In case the test-output folder is not present in the project, it can be created in the following procedure (Points 5, 6, and 7):
 
-4.1) Select the TestClass to run.
+5) Select the TestClass to run.
 
-4.2) Go to "Edit Configurations..."
+6) Go to "Edit Configurations..."
 ![test-output-config-step1](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/test-output-config-step1.jpg).
 
-4.3) Select Listeners tab, and check where says: "Use default reporters".
+7) Select Listeners tab, and check where says: "Use default reporters".
 ![test-output-config-step2](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/test-output-config-step2.png).
 
-## **Run Test-Cases**
+### **Run Test-Cases**
 1) Go to GitRepositoriesSearch_PositiveScenariosTests class in your IDE, make a right click and select Run the class as you can see in the image below. 
 ![how-to-run-testcases](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/how-to-run-positive-testcases.jpg).
 
