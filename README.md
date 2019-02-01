@@ -55,10 +55,10 @@
 4) Proposes improvements that always is welcome. :+1:
 
 ### **Extent Reports**
-![extentreport-positive-dashboard](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/extentreport-positive-dashboard.jpg).
+![extentreport-positive-dashboard](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/extentreport-positive-dashboard.png).
 
-![extentreport-positive-details](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/extentreport-positive-details.jpg).
+![extentreport-positive-details](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/extentreport-positive-details.png).
 
-![extentreport-negative-dashboard](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/extentreport-negative-dashboard.jpg).
+![extentreport-negative-dashboard](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/extentreport-negative-dashboard.png).
 
-![extentreport-negative-details](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/extentreport-negative-details.jpg).
+![extentreport-negative-details](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/extentreport-negative-details.png).
