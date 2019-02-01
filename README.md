@@ -1,4 +1,4 @@
-# celltrak
+# Celltrak
  Automation API Testing Project in Java 8, RestAssured, TestNG and ExtentReport implementations.
  
  # **Project: Celltrak**
@@ -34,9 +34,12 @@
 3) Accept import dependencies or download dependencies from IDE, or a better option is through CMD running: mvn clean install from pom.xml folder location.
 
 4) In case the test-output folder is not present in the project, it can be created in the following procedure:
+
 4.1) Select the TestClass to run.
+
 4.2) Go to "Edit Configurations..."
-![test-output-config-step1](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/test-output-config-step1.jpg)
+![test-output-config-step1](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/test-output-config-step1.jpg).
+
 4.3) Select Listeners tab, and check where says: "Use default reporters".
 ![test-output-config-step2](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/test-output-config-step2.png).
 
