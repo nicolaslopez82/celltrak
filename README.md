@@ -6,8 +6,8 @@
 ## **Objective**
 - Create an Automation API Testing Project in Java 8 and RestAssured over [GitHub Developer REST API v3](https://developer.github.com/v3/search/).
 - Implementation of Extent Report to Test Cases executed with TestNG.
-- Screenshot action over Test Cases that fail, ready to be used in case of implementing a UI Testing through Selenium WebDriver.
-- Logging with log4j and export in an appenderFileLog.log as well as configurable through log4j.properties in Resources folder.
+- Screenshot action over Test Cases that fail, ready to be used in case of implementing a UI Testing through Selenium.
+- Logging with log4j and export in an appenderFileLog.log as well as configurable through log4j.properties in Resources.
 - Use of Apache Maven for project management.
 - Test Cases that implement DataProviders through reading JSON files from the testdata folder.
 - Implementation of Excel POI library.
@@ -48,9 +48,11 @@
 
 ### **Run Test-Cases**
 **1)** Go to ```project``` in your IDE, make a ```right click```, move over ```Run```, and select ```nTg All Test```. the class as you can see in the image below. 
+
 ![how-to-run-testcases](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/how-to-run-testcases.png).
 
 **2)** After all test cases are executed, open the ```ExtentReports``` folder, select ```ExtentReportResults.html```, ```right-click```, and select ```copy path```. Then, open a browser and paste the path to see the Extent Report that shows information in detail of the all test cases executed.
+
 ![how-to-see-ExtentReports](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/how-to-see-reports.png).
 
 **3)** Another option is going to the test classes, and run each one at the time.
@@ -58,6 +60,6 @@
 **4)** Proposes improvements that always is welcome. :+1:
 
 ### **Extent Reports**
-![extentreport-positive-dashboard](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/extentreports-dashboard.png).
+![extentreport-positive-dashboard](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/extentreports-dashboard.png)
 
-![extentreport-positive-details](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/extentreports-testcases.png).
+![extentreport-positive-details](https://github.com/nicolaslopez82/celltrak/blob/master/ReadmeImages/extentreports-testcases.png)
