@@ -1,7 +1,9 @@
 # Celltrak
  Automation API Testing Project in Java 8, RestAssured, TestNG and ExtentReport implementations.
  
- # **Project: Celltrak**
+# **Project: Celltrak**
+
+![celltrak](https://user-images.githubusercontent.com/6266503/52169371-ea34a700-26eb-11e9-8100-c0580f24eee6.gif)
 
 ## **Objective**
 - Create an Automation API Testing Project in Java 8 and RestAssured over [GitHub Developer REST API v3](https://developer.github.com/v3/search/).
