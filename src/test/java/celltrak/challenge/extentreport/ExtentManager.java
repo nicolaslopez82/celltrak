@@ -2,6 +2,7 @@ package celltrak.challenge.extentreport;
 
 import com.relevantcodes.extentreports.ExtentReports;
 
+import java.io.File;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -24,6 +25,7 @@ public class ExtentManager {
             DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
             Date date = new Date();
             extent = new ExtentReports(workingDir + "\\ExtentReports\\ExtentReportsResults-" + dateFormat.format(date) + ".html", true);
+            extent.loadConfig(new File(workingDir + "\\src\\resources\\extent-config.xml"));
         }
         return extent;
     }
