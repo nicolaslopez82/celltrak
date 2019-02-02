@@ -6,7 +6,7 @@
         <listener class-name="celltrak.challenge.listeners.TestListener"/>
     </listeners>
 
-    <test name="PositiveTests" enabled="false">
+    <test name="PositiveTests" enabled="true">
         <classes>
             <class name="celltrak.challenge.test.GitRepositoriesSearch_PositiveScenariosTests">
                 <methods>
@@ -18,7 +18,7 @@
         </classes>
     </test>
 
-    <test name="NegativeTests" enabled="false">
+    <test name="NegativeTests" enabled="true">
         <classes>
             <class name="celltrak.challenge.test.GitRepositoriesSearch_NegativeScenariosTests">
                 <methods>
