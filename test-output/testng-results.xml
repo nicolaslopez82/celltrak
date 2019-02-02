@@ -2,53 +2,16 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13546" started-at="2019-02-01T11:50:51Z" finished-at="2019-02-01T11:51:05Z">
+  <suite name="Suite" duration-ms="9261" started-at="2019-02-02T06:39:02Z" finished-at="2019-02-02T06:39:11Z">
     <groups>
     </groups>
-    <test name="PositiveTests" duration-ms="11403" started-at="2019-02-01T11:50:51Z" finished-at="2019-02-01T11:51:03Z">
-      <class name="celltrak.challenge.test.GitRepositoriesSearch_PositiveScenariosTests">
-        <test-method status="PASS" signature="TC1_RepoSearch_UserNetflixTypeRepoSortCreatedOrderDescPage1PerPage25_Expected200Code(celltrak.challenge.model.RepositorySearchParam)[pri:0, instance:celltrak.challenge.test.GitRepositoriesSearch_PositiveScenariosTests@3a03464]" name="TC1_RepoSearch_UserNetflixTypeRepoSortCreatedOrderDescPage1PerPage25_Expected200Code" duration-ms="8137" started-at="2019-02-01T03:50:52Z" data-provider="PositiveTestScenarios" finished-at="2019-02-01T03:51:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RepositorySearchParam{testCaseName='TC1_RepoSearch_UserNetflixTypeRepoSortCreatedOrderDescPage1PerPage25_Expected200Code', q='user:Netflix', type='Repositories', sort='created', order='desc', page='1', per_page='25'}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC1_RepoSearch_UserNetflixTypeRepoSortCreatedOrderDescPage1PerPage25_Expected200Code -->
-        <test-method status="PASS" signature="TC2_RepoSearch_UserBaeldungTypeRepoSortUpdatedPage1_ExpectedTotalCountGreaterThanOrEqualTo10(celltrak.challenge.model.RepositorySearchParam)[pri:0, instance:celltrak.challenge.test.GitRepositoriesSearch_PositiveScenariosTests@3a03464]" name="TC2_RepoSearch_UserBaeldungTypeRepoSortUpdatedPage1_ExpectedTotalCountGreaterThanOrEqualTo10" duration-ms="1065" started-at="2019-02-01T03:51:00Z" data-provider="PositiveTestScenarios" finished-at="2019-02-01T03:51:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RepositorySearchParam{testCaseName='TC2_RepoSearch_UserBaeldungTypeRepoSortUpdatedPage1_ExpectedTotalCountGreaterThanOrEqualTo10', q='user:baeldung', type='Repositories', sort='updated', order='desc', page='1', per_page='10'}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC2_RepoSearch_UserBaeldungTypeRepoSortUpdatedPage1_ExpectedTotalCountGreaterThanOrEqualTo10 -->
-        <test-method status="PASS" signature="TC3_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage10PerPage50_ExpectedTotalIDsEqualTo100(celltrak.challenge.model.RepositorySearchParam)[pri:0, instance:celltrak.challenge.test.GitRepositoriesSearch_PositiveScenariosTests@3a03464]" name="TC3_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage10PerPage50_ExpectedTotalIDsEqualTo100" duration-ms="1874" started-at="2019-02-01T03:51:01Z" data-provider="PositiveTestScenarios" finished-at="2019-02-01T03:51:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[RepositorySearchParam{testCaseName='TC3_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage10PerPage50_ExpectedTotalIDsEqualTo100', q='user:google', type='Repositories', sort='created', order='desc', page='10', per_page='50'}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC3_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage10PerPage50_ExpectedTotalIDsEqualTo100 -->
-      </class> <!-- celltrak.challenge.test.GitRepositoriesSearch_PositiveScenariosTests -->
-    </test> <!-- PositiveTests -->
-    <test name="NegativeTests" duration-ms="1150" started-at="2019-02-01T11:51:04Z" finished-at="2019-02-01T11:51:05Z">
+    <test name="NegativeTests" duration-ms="6317" started-at="2019-02-02T06:39:02Z" finished-at="2019-02-02T06:39:08Z">
       <class name="celltrak.challenge.test.GitRepositoriesSearch_NegativeScenariosTests">
-        <test-method status="PASS" signature="init()[pri:0, instance:celltrak.challenge.test.GitRepositoriesSearch_NegativeScenariosTests@6a024a67]" name="init" is-config="true" duration-ms="1294" started-at="2019-02-01T03:50:50Z" finished-at="2019-02-01T03:50:51Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:celltrak.challenge.test.GitRepositoriesSearch_NegativeScenariosTests@4de8b406]" name="init" is-config="true" duration-ms="927" started-at="2019-02-01T22:39:01Z" finished-at="2019-02-01T22:39:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="TC4_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage1000PerPage50_ExpectedMessageError(celltrak.challenge.model.RepositorySearchParam)[pri:0, instance:celltrak.challenge.test.GitRepositoriesSearch_NegativeScenariosTests@6a024a67]" name="TC4_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage1000PerPage50_ExpectedMessageError" duration-ms="573" started-at="2019-02-01T03:51:04Z" data-provider="PositiveTestScenarios" finished-at="2019-02-01T03:51:04Z">
+        <test-method status="PASS" signature="TC4_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage1000PerPage50_ExpectedMessageError(celltrak.challenge.model.RepositorySearchParam)[pri:0, instance:celltrak.challenge.test.GitRepositoriesSearch_NegativeScenariosTests@4de8b406]" name="TC4_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage1000PerPage50_ExpectedMessageError" duration-ms="5505" started-at="2019-02-01T22:39:02Z" data-provider="PositiveTestScenarios" finished-at="2019-02-01T22:39:08Z">
           <params>
             <param index="0">
               <value>
@@ -59,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC4_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage1000PerPage50_ExpectedMessageError -->
-        <test-method status="PASS" signature="TC5_RepoSearch_UserLanguageSortStarsOrderDescPage1PerPage5_Expected422Code(celltrak.challenge.model.RepositorySearchParam)[pri:0, instance:celltrak.challenge.test.GitRepositoriesSearch_NegativeScenariosTests@6a024a67]" name="TC5_RepoSearch_UserLanguageSortStarsOrderDescPage1PerPage5_Expected422Code" duration-ms="569" started-at="2019-02-01T03:51:04Z" data-provider="PositiveTestScenarios" finished-at="2019-02-01T03:51:05Z">
+        <test-method status="PASS" signature="TC5_RepoSearch_UserLanguageSortStarsOrderDescPage1PerPage5_Expected422Code(celltrak.challenge.model.RepositorySearchParam)[pri:0, instance:celltrak.challenge.test.GitRepositoriesSearch_NegativeScenariosTests@4de8b406]" name="TC5_RepoSearch_UserLanguageSortStarsOrderDescPage1PerPage5_Expected422Code" duration-ms="655" started-at="2019-02-01T22:39:08Z" data-provider="PositiveTestScenarios" finished-at="2019-02-01T22:39:08Z">
           <params>
             <param index="0">
               <value>
@@ -72,5 +35,42 @@
         </test-method> <!-- TC5_RepoSearch_UserLanguageSortStarsOrderDescPage1PerPage5_Expected422Code -->
       </class> <!-- celltrak.challenge.test.GitRepositoriesSearch_NegativeScenariosTests -->
     </test> <!-- NegativeTests -->
+    <test name="PositiveTests" duration-ms="9261" started-at="2019-02-02T06:39:02Z" finished-at="2019-02-02T06:39:11Z">
+      <class name="celltrak.challenge.test.GitRepositoriesSearch_PositiveScenariosTests">
+        <test-method status="PASS" signature="TC1_RepoSearch_UserNetflixTypeRepoSortCreatedOrderDescPage1PerPage25_Expected200Code(celltrak.challenge.model.RepositorySearchParam)[pri:0, instance:celltrak.challenge.test.GitRepositoriesSearch_PositiveScenariosTests@366e2eef]" name="TC1_RepoSearch_UserNetflixTypeRepoSortCreatedOrderDescPage1PerPage25_Expected200Code" duration-ms="5855" started-at="2019-02-01T22:39:02Z" data-provider="PositiveTestScenarios" finished-at="2019-02-01T22:39:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RepositorySearchParam{testCaseName='TC1_RepoSearch_UserNetflixTypeRepoSortCreatedOrderDescPage1PerPage25_Expected200Code', q='user:Netflix', type='Repositories', sort='created', order='desc', page='1', per_page='25'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_RepoSearch_UserNetflixTypeRepoSortCreatedOrderDescPage1PerPage25_Expected200Code -->
+        <test-method status="PASS" signature="TC2_RepoSearch_UserBaeldungTypeRepoSortUpdatedPage1_ExpectedTotalCountGreaterThanOrEqualTo10(celltrak.challenge.model.RepositorySearchParam)[pri:0, instance:celltrak.challenge.test.GitRepositoriesSearch_PositiveScenariosTests@366e2eef]" name="TC2_RepoSearch_UserBaeldungTypeRepoSortUpdatedPage1_ExpectedTotalCountGreaterThanOrEqualTo10" duration-ms="1067" started-at="2019-02-01T22:39:08Z" data-provider="PositiveTestScenarios" finished-at="2019-02-01T22:39:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RepositorySearchParam{testCaseName='TC2_RepoSearch_UserBaeldungTypeRepoSortUpdatedPage1_ExpectedTotalCountGreaterThanOrEqualTo10', q='user:baeldung', type='Repositories', sort='updated', order='desc', page='1', per_page='10'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_RepoSearch_UserBaeldungTypeRepoSortUpdatedPage1_ExpectedTotalCountGreaterThanOrEqualTo10 -->
+        <test-method status="PASS" signature="TC3_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage10PerPage50_ExpectedTotalIDsEqualTo100(celltrak.challenge.model.RepositorySearchParam)[pri:0, instance:celltrak.challenge.test.GitRepositoriesSearch_PositiveScenariosTests@366e2eef]" name="TC3_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage10PerPage50_ExpectedTotalIDsEqualTo100" duration-ms="2179" started-at="2019-02-01T22:39:09Z" data-provider="PositiveTestScenarios" finished-at="2019-02-01T22:39:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RepositorySearchParam{testCaseName='TC3_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage10PerPage50_ExpectedTotalIDsEqualTo100', q='user:google', type='Repositories', sort='created', order='desc', page='10', per_page='50'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_RepoSearch_UserGoogleTypeRepoSortCreatedOrderDescPage10PerPage50_ExpectedTotalIDsEqualTo100 -->
+      </class> <!-- celltrak.challenge.test.GitRepositoriesSearch_PositiveScenariosTests -->
+    </test> <!-- PositiveTests -->
   </suite> <!-- Suite -->
 </testng-results>
