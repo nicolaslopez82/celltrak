@@ -1,10 +1,12 @@
 package celltrak.challenge.model;
 
+import java.io.Serializable;
+
 /**
  * Created by nicolaslopez82.
  */
 
-public class RepositorySearchParam {
+public class RepositorySearchParam implements Serializable {
 
     private String testCaseName;
     private String q;

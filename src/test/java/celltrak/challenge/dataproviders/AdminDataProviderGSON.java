@@ -13,7 +13,14 @@ import com.google.gson.Gson;
 
 public class AdminDataProviderGSON extends BaseTest{
 
-    protected static String current_dir = System.getProperty("user.dir")+File.separator+"src\\test\\resources\\testdata";
+    protected static String current_dir = System.getProperty("user.dir")+File.separator +
+            "src" +
+            File.separator +
+            "test" +
+            File.separator +
+            "resources" +
+            File.separator +
+            "testdata";
 
     protected AdminDataProviderGSON() {}
 
@@ -37,7 +44,7 @@ public class AdminDataProviderGSON extends BaseTest{
         Gson gson = new Gson();
         RepositorySearchParam repositorySearchParam = new RepositorySearchParam();
         try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(current_dir + "\\" + methodName + ".json"));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(current_dir + File.separator  + methodName + ".json"));
             repositorySearchParam = gson.fromJson(bufferedReader, RepositorySearchParam.class);
         } catch (FileNotFoundException e) {
             e.printStackTrace();

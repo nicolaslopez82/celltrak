@@ -24,8 +24,8 @@ public class ExtentManager {
             String workingDir = System.getProperty("user.dir");
             DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
             Date date = new Date();
-            extent = new ExtentReports(workingDir + "\\ExtentReports\\ExtentReportsResults-" + dateFormat.format(date) + ".html", true);
-            extent.loadConfig(new File(workingDir + "\\src\\resources\\extent-config.xml"));
+            extent = new ExtentReports(workingDir + File.separator + "ExtentReports" + File.separator + "ExtentReportsResults-" + dateFormat.format(date) + ".html", true);
+            extent.loadConfig(new File(workingDir + File.separator + "src" + File.separator + "resources" +File.separator + "extent-config.xml"));
         }
         return extent;
     }
